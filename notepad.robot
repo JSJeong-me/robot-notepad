@@ -29,8 +29,8 @@ Change font settings
     Click    id:1    # OK
 
 Open font settings
-    Click    type:MenuItemControl name:Format
-    Click    type:MenuItemControl name:Font...
+    Click    type:MenuItemControl name:서식(O)
+    Click    type:MenuItemControl name:글꼴(F)...
 
 Set font
     Select    id:1136    %{NOTEPAD_FONT_NAME=Times New Roman}
